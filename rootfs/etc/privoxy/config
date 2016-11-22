@@ -23,8 +23,7 @@ enable-proxy-authentication-forwarding 0
 # forward-socks5  / 127.0.0.1:7070  .  
 forward          /    .
 forward-socks5  .dropbox.com 127.0.0.1:7070  .
-forward-socks5  .tmdb.org 127.0.0.1:7070  .
-forward-socks5  .themoviedb.org 127.0.0.1:7070  .
+forward-socks5  .google.com 127.0.0.1:7070  .
 
 forwarded-connect-retries  0
 
