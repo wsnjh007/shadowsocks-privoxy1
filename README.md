@@ -2,7 +2,8 @@
 
     forked from bluebu/shadowsocks-privoxy
 
-    Add PAC that you can use Synology NAS to sync your dropbox and googledrive by CloudSync and it's not global.
+    Add PAC that you can use Synology NAS to sync your dropbox or googledrive by CloudSync.
+    It's not global.
 
 ## NAS Run:
 
