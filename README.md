@@ -1,18 +1,11 @@
 # shadowsocks-privoxy
 
-    shadowsocks client for socks5 proxy
-    privoxy for http proxy
-    Only 16MB size
+    forked from bluebu/shadowsocks-privoxy
 
-## Image:
+    Add PAC that you can use Synology NAS to sync your dropbox and googledrive by CloudSync and it's not global.
 
-~~~
-docker pull bluebu/shadowsocks-privoxy
-~~~
-
-
-## Run:
+## NAS Run:
 
 ~~~
-docker run -i -t -e SERVER_ADDR=ss.server.ip -e SERVER_PORT=port -e PASSWORD=123456 bluebu/shadowsocks-privoxy
+set variables: SERVER_ADDR=ss.server.ip SERVER_PORT=port PASSWORD=123456
 ~~~
