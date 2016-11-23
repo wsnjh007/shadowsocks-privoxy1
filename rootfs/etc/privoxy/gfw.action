@@ -2744,6 +2744,7 @@ search.disconnect.me:443
 .*.drmingxia.org*.:80
 :80/.*\.drmingxia\.org
 drmingxia.org:80
+.dropbox*.com
 .dropbox.com
 .dropboxusercontent.com
 .*drsunacademy.com*.:80
@@ -9536,7 +9537,6 @@ book.zi5.me:80
 #################Whitelist End##################
 #---------------------EOF-----------------------
 {+forward-override{forward .}}
-.dropbox.com:443
 blog.ontrac.com:80
 store.sprite.org:80
 .intl.target.com
