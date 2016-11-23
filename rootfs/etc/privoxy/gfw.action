@@ -2745,6 +2745,7 @@ search.disconnect.me:443
 :80/.*\.drmingxia\.org
 drmingxia.org:80
 .dropbox.com
+.dropbox.com:443
 .dropboxusercontent.com
 .*drsunacademy.com*.:80
 :80/.*drsunacademy\.com
