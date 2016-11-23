@@ -3,7 +3,7 @@ logdir /var/log/privoxy
 
 actionsfile match-all.action # Actions that are applied to all sites and maybe overruled later on.
 actionsfile default.action   # Main actions file
-actionsfile gfw.action      # User customizations
+actionsfile user.action      # User customizations
 
 filterfile default.filter
 filterfile user.filter      # User customizations
@@ -21,9 +21,9 @@ buffer-limit 4096
 enable-proxy-authentication-forwarding 0
 
 # forward-socks5  / 127.0.0.1:7070  .  
-# forward          /    .
-# forward-socks5  .dropbox.com 127.0.0.1:7070  .
-# forward-socks5  .google.com 127.0.0.1:7070  .
+forward          /    .
+forward-socks5  .dropbox*.com 127.0.0.1:7070  .
+forward-socks5  .*google*.* 127.0.0.1:7070  .
 
 forwarded-connect-retries  0
 
