@@ -4,6 +4,8 @@
 
     Add PAC that you can use Synology NAS to sync your dropbox or googledrive by CloudSync.
     It's not global.
+    
+    Add Facebook & Twitter API, so you can share your ps4 photos.
 
 ## NAS Run:
 
